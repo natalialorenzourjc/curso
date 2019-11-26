@@ -1,9 +1,8 @@
-export class usuario {
+export class Usuario {
 
-
-constructor( login:string, nombre: string, apellidos:string){
+constructor( login: string, nombre: string, apellidos: string){
   this.login = login;
-  this.nombre= nombre;
+  this.nombre = nombre;
   this.apellidos = apellidos;
 
 }
