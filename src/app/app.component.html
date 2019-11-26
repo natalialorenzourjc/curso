@@ -1,6 +1,21 @@
-<a routerLink="primero">primero</a>
-<a routerLink="segundo">segundo</a>
-<a routerLink="tercer">segundo</a>
+<mat-sidenav-container fullscreen>
+  <mat-sidenav mode="side" #sidenav position="start">
+    EJERCICIOS
+    <hr>
+    <ul>
+      <li><a routerLink='' (click)="sidenav.close()">Inicio</a></li>
+    </ul>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      Curso multiplataforma
+    </mat-toolbar>
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
 
-informacion del componente segundo
-<router-outlet></router-outlet>
