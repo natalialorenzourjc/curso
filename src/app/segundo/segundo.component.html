@@ -1,1 +1,31 @@
 <p>segundo works!</p>
+
+Directiva del if booleana
+<p *ngIf=" variableBoleana">el if</p>
+
+Directiva switch
+
+<div [ngSwitch]="numero">
+<p *ngSwitchCase="0"> Se esta mostrando el numero 0</p>
+<p *ngSwitchCase="5"> Se esta mostrando el numero 5</p>
+<p *ngSwitchCase="1"> Se esta mostrando el numero 1</p>
+</div>
+
+directiva del for
+<p *ngFor="let posicion of arrayDatos">{{posicion}}</p>
+
+
+<div *ngFor="let posicion of arrayDatos">
+  <div [ngSwitch]="posicion">
+    <p *ngSwitchCase="0"> Se esta mostrando el numero 0</p>
+    <p *ngSwitchCase="5"> Se esta mostrando el numero 5</p>
+    <p *ngSwitchCase="3"> Se esta mostrando el numero 3</p>
+    <p *ngSwitchCase="1"> Se esta mostrando el numero 1</p>
+  </div>
+</div>
+
+<p> esto es un numero: {{numeroPipe|number}}</p>
+<p> esto es un dinero currency: {{dineroPipe |currency: '€'}}</p>
+<p> esto es fecha formateada: {{fecha | date |lowercase }}</p>
+<p> esto es una cadena de caracteeres: {{cadenaPipe}}</p>
+
