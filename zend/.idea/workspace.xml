@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1500baf1-8795-4e3b-a4af-39307e5f491f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/app/apizend/services/Usuario-api.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/app/apizend/usuario-api/usuario-api.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/app/apizend/usuario-api/usuario-api.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/app/apizend/usuario-api/usuario-api.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Application/src/Controller/MasterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Application/src/Model/Entity/MasterTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Application/src/Model/Entity/Usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/autoload/global.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/autoload/global.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/src/Controller/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/src/Controller/UsuarioController.php" afterDir="false" />
-    </list>
+    <list default="true" id="1500baf1-8795-4e3b-a4af-39307e5f491f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574848566067</updated>
       <workItem from="1574848567239" duration="2728000" />
-      <workItem from="1574851772696" duration="4851000" />
+      <workItem from="1574851772696" duration="5479000" />
     </task>
     <task id="LOCAL-00001" summary="version 27/11/2019">
       <created>1574851253583</created>
