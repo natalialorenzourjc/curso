@@ -14,7 +14,7 @@ use Application\Model\Entity\Usuario;
 class UsuarioController extends MasterController
 {
   /** @var Adapter */
-  private $dbAdapter;
+  private $dbAdapter; //conexion a la bd
   private $usuario;
   /**
    * IndexController constructor.
@@ -27,7 +27,7 @@ class UsuarioController extends MasterController
   }
 
   public function create($data)
-  {
+  {  die ("muerte");
     $data =  $this->array_change_key_case_recursive($data, CASE_UPPER);
     $res = $this->usuario->addData($data);
     $data =  $this->array_change_key_case_recursive($data, CASE_LOWER);
@@ -49,7 +49,7 @@ class UsuarioController extends MasterController
 
   public function getList()
   {
-    die ("muerte");
+
     $data = $this->usuario->getAllData();
     /*
      * Por defecto nos devuelve las keys en mayúsuclas
@@ -66,13 +66,13 @@ class UsuarioController extends MasterController
       'Access-Control-Allow-Methods' => '*'
     ]);
     $response->setContent(json_encode($data));
-    $response->setStatusCode(200);
+    $response->setStatusCode(200);//comprueba que esta correcto
     return $response;
   }
 
   public function get($id)
   {
-    die("muerte");
+
     $data = $this->usuario->getDataId($id);
 
     /** @var Response $response */
@@ -81,7 +81,7 @@ class UsuarioController extends MasterController
       'Access-Control-Allow-Origin' => '*',
       'Access-Control-Allow-Methods' => '*'
     ]);
-    $response->setContent(json_encode([$data]));
+    $response->setContent(json_encode($data));
     $response->setStatusCode(200);
     return $response;
   }
@@ -121,7 +121,7 @@ class UsuarioController extends MasterController
   }
 
   public function delete($id)
-  {
+  { die ("muerte");
     $res = $this->usuario->deleteData($id);
 
     $response = $this->getResponse();

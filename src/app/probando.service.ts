@@ -32,6 +32,6 @@ export class ProbandoService {
   nuevoUsuario(): Usuario {
     // Todos null para crearlo sin valores concretos
     // Importante edad = null porque al ser numérco no se puede poner = '' y no queremos inicializaron con un valor
-    return  new Usuario(null,null, null);
+    return  new Usuario(null,null, null, null,null);
   }
 }

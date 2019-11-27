@@ -4,12 +4,14 @@ import {InicioComponent} from './inicio/inicio.component';
 import {SegundoComponent} from './segundo/segundo.component';
 import {TercerComponent} from './tercer/tercer.component';
 import {CuatroComponent} from './cuatro/cuatro.component';
+import {UsuarioApiComponent} from './apizend/usuario-api/usuario-api.component';
 
 const routes: Routes = [
   {path: 'primero', component: InicioComponent},
   {path: 'segundo', component: SegundoComponent},
   {path: 'tercer', component: TercerComponent },
   {path: 'cuatro', component: CuatroComponent },
+  {path: 'usuario-api', component: UsuarioApiComponent },
 ];
 
 

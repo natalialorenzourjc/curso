@@ -10,6 +10,9 @@ import { TercerComponent } from './tercer/tercer.component';
 import {MatIconModule, MatMenuModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { CuatroComponent } from './cuatro/cuatro.component';
+import { UsuarioApiComponent } from './apizend/usuario-api/usuario-api.component';
+import {HttpClientModule} from '@angular/common/http';
+import {UsuarioApiService} from './apizend/services/Usuario-api.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,8 @@ import { CuatroComponent } from './cuatro/cuatro.component';
     InicioComponent,
     SegundoComponent,
     TercerComponent,
-    CuatroComponent
+    CuatroComponent,
+    UsuarioApiComponent
   ],
   imports: [
     BrowserModule,
@@ -27,9 +31,10 @@ import { CuatroComponent } from './cuatro/cuatro.component';
   MatIconModule,
     MatSidenavModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [UsuarioApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
