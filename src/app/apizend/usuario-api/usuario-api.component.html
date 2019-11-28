@@ -8,13 +8,17 @@
   <article *ngFor="let usuario of usuarios">
     <span>
       {{usuario.nombre}} {{usuario.apellido1}} {{usuario.apellido2}} ({{usuario.login}}), {{usuario.edad}} años.
-      <!--<button (click)="this.borrar(usuario.login)">Borrar</button>
+     <!--<button (click)="this.borrar(usuario.login)">Borrar</button>
       <button (click)="this.editar(usuario.login)">Editar</button>-->
     </span>
   </article>
 </div>
 <div>
-  <button (click)="this.nuevo('mostrar')">Añadir</button>
+  <p><span>Nombre: </span><input type="text" [(ngModel)]="usuario.nombre"></p>
+  <p><span>Apellido1: </span><input type="text" [(ngModel)]="usuario.apellido1"></p>
+  <p><span>Apellido2: </span><input type="text" [(ngModel)]="usuario.apellido2"></p>
+  <p><span>Edad: </span><input type="number" [(ngModel)]="usuario.edad"></p>
+  <button (click)="this.nuevo(usuario.login)">Añadir</button>
 </div>
 <br>
 <div *ngIf=" edito">
