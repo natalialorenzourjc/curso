@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1500baf1-8795-4e3b-a4af-39307e5f491f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/app/cuatro/model/curso.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Application/src/Controller/CursoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Application/src/Controller/Factory/CursoControllerFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Application/src/Model/Entity/Curso.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/config/module.config.php" afterDir="false" />
-    </list>
+    <list default="true" id="1500baf1-8795-4e3b-a4af-39307e5f491f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +215,7 @@
       <updated>1574848566067</updated>
       <workItem from="1574848567239" duration="2728000" />
       <workItem from="1574851772696" duration="5496000" />
-      <workItem from="1574930530483" duration="3786000" />
+      <workItem from="1574930530483" duration="3788000" />
     </task>
     <task id="LOCAL-00001" summary="version 27/11/2019">
       <created>1574851253583</created>
