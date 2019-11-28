@@ -1,11 +1,12 @@
 <mat-sidenav-container fullscreen>
   <mat-sidenav mode="side" #sidenav position="start">
-    EJERCICIOS
+    EJERCICIOS {{title}}
     <hr>
     <ul>
       <li><a routerLink='' (click)="sidenav.close()">Inicio</a></li>
       <li><a routerLink='cuatro' (click)="sidenav.close()">Cuatro</a></li>
       <li><a routerLink='usuario-api' (click)="sidenav.close()">Usuario</a></li>
+      <li><a routerLink='curso-api' (click)="sidenav.close()">gestión de cursos</a></li>
     </ul>
   </mat-sidenav>
   <mat-sidenav-content>

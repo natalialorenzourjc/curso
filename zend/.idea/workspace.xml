@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1500baf1-8795-4e3b-a4af-39307e5f491f" name="Default Changelist" comment="" />
+    <list default="true" id="1500baf1-8795-4e3b-a4af-39307e5f491f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/app/cuatro/model/curso.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Application/src/Controller/CursoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Application/src/Controller/Factory/CursoControllerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Application/src/Model/Entity/Curso.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Application/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/config/module.config.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response25.html" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response3.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -68,6 +75,26 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/public/curso" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost" />
@@ -194,7 +221,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574848566067</updated>
       <workItem from="1574848567239" duration="2728000" />
-      <workItem from="1574851772696" duration="5479000" />
+      <workItem from="1574851772696" duration="5496000" />
+      <workItem from="1574930530483" duration="3786000" />
     </task>
     <task id="LOCAL-00001" summary="version 27/11/2019">
       <created>1574851253583</created>
@@ -203,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574851253583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 27/11/2019 2">
+      <created>1574860604968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574860604968</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +259,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 27/11/2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 27/11/2019" />
+    <MESSAGE value="version 27/11/2019 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 27/11/2019 2" />
   </component>
 </project>

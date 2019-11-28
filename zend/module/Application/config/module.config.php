@@ -33,6 +33,15 @@ return [
               ],
             ],
           ],
+          'curso'=> [
+            'type'    => Segment::class,
+            'options' => [
+              'route'    => '/curso[/:id]',
+              'defaults' => [
+                'controller' => Controller\UsuarioController::class,
+              ],
+            ],
+          ],
             'application' => [
                 'type'    => Segment::class,
                 'options' => [

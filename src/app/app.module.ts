@@ -13,6 +13,7 @@ import { CuatroComponent } from './cuatro/cuatro.component';
 import { UsuarioApiComponent } from './apizend/usuario-api/usuario-api.component';
 import {HttpClientModule} from '@angular/common/http';
 import {UsuarioApiService} from './apizend/services/Usuario-api.service';
+import { CursoApiComponent } from './curso-api/curso-api.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {UsuarioApiService} from './apizend/services/Usuario-api.service';
     SegundoComponent,
     TercerComponent,
     CuatroComponent,
-    UsuarioApiComponent
+    UsuarioApiComponent,
+    CursoApiComponent
   ],
   imports: [
     BrowserModule,
